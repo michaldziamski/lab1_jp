@@ -19,8 +19,8 @@ public class PorownanieSetow {
                 int liczba = Integer.parseInt(i);
                 hashSet.add(liczba);
                 treeSet.add(liczba);
-            } catch (NumberFormatException e) {
-                System.out.println("Error: " + i + " nie jest liczbą");
+            } catch (NumberFormatException nfe) {
+                System.out.println("Error, nie podałeś liczby");
             }
         }
 
